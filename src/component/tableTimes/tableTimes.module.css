@@ -1,0 +1,12 @@
+.TableTime {
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: auto;
+    font-size: 15px;
+    box-shadow: 0px 10px 25px rgba(90, 92, 124, 0.03);border: 1px solid #C7C9D9;
+ 
+    border-radius: 31px;
+}

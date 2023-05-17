@@ -1,0 +1,41 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem 2rem 2rem;
+}
+
+.Leftlogo {
+    width: 214px;
+    height: 214px;
+}
+
+.Gameinfo {
+    width: 40%;
+    text-align: center;
+}
+
+
+
+.Rightlogo>img {
+    margin: .5rem;
+    width: 154px;
+    height: 154px;
+}
+
+.Rightlogo>input[type=file] {
+ /* background-color: red; */
+ margin: 1rem;
+ border-radius: 1rem;
+ padding: 1rem;   
+}
+.Rightlogo>input[type=file]::-webkit-file-upload-button {
+    background: #17D0DD;
+    color: red;
+    outline: none;
+    border: 2px solid rgb(161, 161, 161);
+    padding: 1em;
+    border-radius: 1rem;
+  }
+  .Rightlogo>input[type=file]::-webkit-textfield-decoration-container{
+   color: #fff;
+  }
